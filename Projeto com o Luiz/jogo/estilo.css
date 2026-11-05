@@ -1,0 +1,45 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 150px;
+    background-color:rgba(100, 148, 237, 0.534)
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-image: url(https://wallpaper.forfun.com/fetch/2c/2cd1a09461a17188b6291d3abbf6cb78.jpeg);
+    color: cover;
+}
+.painel{
+    width: 8000px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.jogo{
+    margin: auto;
+}
+td{
+    border: 4px solid rgb(236, 236, 236);
+    border-radius: 30px;
+}
+.quadrado:hover{
+    box-shadow: inset 1px 1px 50px white;
+}
+.botao{
+    background-color: rgb(73, 146, 255);
+    font-size: 20px;
+    color: aliceblue;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: rgb(83, 83, 83);
+    color: aliceblue;
+}

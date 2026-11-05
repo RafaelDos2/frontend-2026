@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 215, 240);
+}
+
+/*personalização de produto individual*/
+.produto{
+    background-color: aliceblue;
+    /*espaçamento interno*/
+    padding: 20px;
+    text-align: center;
+    border: 80px;
+}
+.produto img{
+    width: 100%;
+}
+.produto{
+    width: 70%;
+}
+.produto p {
+     color: rgb(53, 53, 53);
+}
+.produto .preco{
+    color: rgb(9, 160, 4);
+    font-weight: bold;
+}
+
+.produtos{
+    display: grid;
+    /*quantas colunas*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /*espaçamento*/
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+/*quando passar o mause no card*/
+.produto:hover{
+    scale: 1.1;
+    transition: 1s;
+    box-shadow: 1px 1px 10px black;
+
+}
